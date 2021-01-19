@@ -9,8 +9,8 @@ dict = {"m":"0" , "u":"1", "r":"2", "c":"3", "i":"4" , "e":"5" , "l":"6" , "a":"
 def Encrypt(Msg = ""):
     MsgCoded = Msg.lower()
     for c in dict:
-        msgCoded = MsgCoded.replace(c,dict[c])
-    return msgCoded
+        MsgCoded = MsgCoded.replace(c,dict[c])
+    return MsgCoded
 
 def Decrypt(Msg = ""):
     msgDecoded = Msg.lower()
