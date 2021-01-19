@@ -10,7 +10,7 @@ def Encrypt(Msg = ""):
     MsgCoded = Msg.lower()
     for c in dict:
         msgCoded = MsgCoded.replace(c,dict[c])
-    return MsgCoded
+    return msgCoded
 
 def Decrypt(Msg = ""):
     msgDecoded = Msg.lower()
